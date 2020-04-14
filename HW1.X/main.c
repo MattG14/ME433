@@ -67,11 +67,11 @@ int main() {
             _CP0_SET_COUNT(0);
             while(_CP0_GET_COUNT()<12000000){
                LATAbits.LATA4 = 1;
-        }
+            }
             _CP0_SET_COUNT(0);
             while(_CP0_GET_COUNT()<12000000){
                LATAbits.LATA4 = 0;
-        }
-    }
+            }
+        } 
     }
 }
